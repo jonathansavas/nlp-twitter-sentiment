@@ -1,0 +1,12 @@
+short,city,nickname,keywords
+BAL,Baltimore,Ravens,BAL;#BAL;ravens;Ravens;#Ravens;#ravens;#RavensFlock;RavensFlock;#GoRavens;GoRavens;"Lamar Jackson"
+LAR,"Los Angeles",Rams,LAR;#LAR;rams;Rams;#rams;#Rams;#LARams;LARams;#GoRams;GoRams;#GoLARams;GoLARams;"Jared Goff";Goff
+GB,"Green Bay",Packers,GB;#GB;packers;Packers;#packers;#Packers;#GoPackGo;GoPackGo;#GoPackers;GoPackers;"Aaron Rodgers"
+SF,"San Francisco",49ers,SF;#SF;49ers;9ers;#49ers;#9ers;#GoNiners;GoNiners;"Jimmy Garoppolo";Garoppolo
+DAL,Dallas,Cowboys,DAL;#DAL;cowboys;Cowboys;#cowboys;#Cowboys;#DallasCowboys;DallasCowboys;#GoCowboys;GoCowboys;"Dak Prescott";Dak
+NE,"New England",Patriots,NE;#NE;#patriots;#Patriots;#NewEnglandPatriots;NewEnglandPatriots;#GoPats;GoPats;"Tom Brady"
+CHI,Chicago,Bears,CHI;#CHI;"chicago bears";"Chicago Bears";#Bears;#bears;#FeedDaBears;FeedDaBears;#GoBears;GoBears;Trubisky
+DET,Detroit,Lions,DET;#DET;"detroit lions";"Detroit Lions";#Lions;#lions;#OnePride;OnePride;#GoLions;GoLions;"David Blough"
+BUF,Buffalo,Bills,BUF;#BUF;bills;Bills;#Bills;#bills;#GoBills;GoBills;"Josh Allen"
+ATL,Atlanta,Falcons,ATL;#ATL;falcons;Falcons;#Falcons;#falcons;#RiseUp;RiseUp;#GoFalcons;GoFalcons;"Matt Ryan"
+NO,"New Orleans",Saints,#NO;saints;Saints;#Saints;#saints;#Saints50;Saints50;#GoSaints;GoSaints;"Drew Brees"
