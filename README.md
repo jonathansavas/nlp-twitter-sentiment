@@ -1,13 +1,5 @@
-# marist-NLP-Project
-## Description
-Can we find a correlation between how an NFL team is perceived and their win percentages during a game? We want to perform a sentiment analysis on each NFL team during a game and use statistitcs generated from ESPN as a real time win percentages to find correlations. Two end goals for this would be to figure out if we can predict the outcome of a game based on sentiment analysis throughout the game, and if we can predict a team's chance to win only by the fan perception. 
-## Steps to Completion
-- Scrape twitter for specific hashtag's to get live data
-- Scrape ESPN or other sport stastical data. 
-- Perform a sentiment analysis on the tweets. 
-- Create a regression model using sentiment as a feature to predict outcomes and real time win chance. 
-## Technologies of Interest
-- Keras with TensorFlow back-end to create a sentiment model for tweets (potential dataset with over 1.5 million tweets categorized as positive or negative sentiment here: http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/)
-- Tweepy, a Python library for accessing Twitter API. Of particular interst is the streaming API here: https://tweepy.readthedocs.io/en/latest/streaming_how_to.html
-- nflscrapR library to grab statistical and win probability data for NFL games here: https://github.com/maksimhorowitz/nflscrapR
-- rpy2 library as an option to call nflscrapR code (this is R source code) directly from python code here: https://rpy2.readthedocs.io/en/version_2.8.x/introduction.html
+# Marist-NLP-Project
+
+We built a Twitter sentiment model using an LSTM neural network in Tensorflow and Keras in order to assign positivity ratings to tweets. We used these ratings to create a plot of team sentiment over the course of a game. We compared this against a win probability plot for that team over the course of the same game to see if we could capture the changes in a team's performance throughout the game based on tweets. 
+
+We utilized Tweepy (https://www.tweepy.org/) to grab our text data from Twitter. For our training data, we used the Sentiment140 dataset (http://help.sentiment140.com/for-students/), a file of 1.6 million tweets from Stanford University, classified as positive or negative. We also leveraged GloVe pre-trained Twitter word-vectors (https://nlp.stanford.edu/projects/glove/), to create an initial Embedding layer in our model. To get the win probability data, we used the nflscrapR library (https://github.com/maksimhorowitz/nflscrapR) combined with rpy2 (https://pypi.org/project/rpy2/) to call this directly from Python. Finally, we used nflgame (https://github.com/derek-adair/nflgame) to create files which linked game-time timestamps to real-time timestamps.
